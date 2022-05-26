@@ -1,0 +1,26 @@
+.section .container{
+    display: grid;
+    padding: 3rem 1rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+.section .left_side{
+    text-align: center;
+}
+.section img{
+    width: 350px;
+}
+.section img:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out; 
+}
+.section .right_side p{
+    margin: 2rem 0;
+}
+@media screen and (max-width: 940px) {
+    .section .container {
+        grid-template-columns: 1fr;
+    }
+    
+}

@@ -1,0 +1,36 @@
+.main .container{
+    margin: 3.5rem auto;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.main .left_column{
+    padding: 1rem;
+}
+.main h1 {
+    padding: 1rem 0;
+}
+.main .input-container{
+    padding: 1rem 0;
+}
+.main .right_column{
+    padding: 1rem;
+}
+.main .img-container{
+    display: flex;
+    width: 100%;
+}
+.main img{
+    margin: auto;
+    max-width: 85%;
+}
+
+@media screen and (max-width: 925px) {
+    .main .container {
+        margin: 1rem 0;
+        grid-template-columns: 1fr;
+    }
+    
+}
